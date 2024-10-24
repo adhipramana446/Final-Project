@@ -273,7 +273,7 @@ def main_menu():
     while menu:
         screen.blit(image, (0, 0))
         font = pg.font.SysFont(None, 70)
-        draw_text("Kid Choize Game!", font, WHITE, WIDTH // 4 + 75, HEIGHT // 4)
+        draw_text("Kid Choize Game!", font, WHITE, WIDTH // 4, HEIGHT // 7)
         draw_button("Start Game", WIDTH // 2 - 100, HEIGHT // 3, 200, 60, BLUE, RED, start_game)
 
         for event in pg.event.get():
